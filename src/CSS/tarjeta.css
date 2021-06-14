@@ -4,11 +4,6 @@
     box-sizing: border-box;
 }
 
-/* body {
-    background-color: #FCF3CF;
-    font-family: 'Lato', sans-serif;
-} */
-
 body{
     background: url(../images/fondo-me.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
