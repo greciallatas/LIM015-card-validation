@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta Débito/Crédito</title>
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|Liu+Jian+Mao+Cao%display=swap"> -->
+    <link rel="stylesheet" href="../CSS/tarjeta.css">
+    <link rel="stylesheet" href="../CSS/formularioTarjeta.css">
+</head>
+<body>
+    <header></header>
+    <main>
+        <!-- Tarjera -->
+        <section id="tarjeta">
+            <!-- Tarjeta parte delantera -->
+            <article class="delantera">
+                <figure id="logo-tarjeta">
+                    <!-- <img src="../Images/visa.png" alt="visa"> -->
+                </figure>
+                    <img src="../Images/chip-tarjeta.png" class="chip" alt="chip tarjeta">
+                <article class="datos">
+                    <article class="grupo" id="numero">
+                        <p class="label">Número Tarjeta</p>
+                        <p class="numero">#### #### #### ####</p>
+                    </article>
+                    <article class="flexbox">
+                        <article class="grupo" id="nombre">
+                            <p class="label">Nombre Tarjeta</p>
+                            <p class="nombre">FRIENDS</p>
+                        </article>
+                        <article class="grupo" id="expiracion">
+                            <p class="label">Expiración</p>
+                            <p class="expiracion">
+                                <span class="month">MM</span> / <span class="year">AA</span>
+                            </p>
+                        </article>
+                    </article>
+                </article>
+                </article>
+            </article>
+            <!-- Tarjeta parte trasera -->
+            <article class="trasera">
+                <article class="barra-magnetica"></article>
+                <article class="datos">
+                    <article class="grupo" id=firma>
+                        <p class="label">Firma</p>
+                        <article class="firma"><p>Grecia Llatas</p></article>
+                    </article>
+                    <article class="grupo" id=ccv>
+                        <p class="label">CCV</p>
+                        <p class="ccv"></p>
+                    </article>
+                </article>
+                <p class="leyenda">Front-End</p>
+                <a href="#" class="link-banco">https://www.laboratoria.la</a>
+        </section>
+
+        <!-- Formulario de la tarjeta -->
+        <form action="" id="formulario-tarjeta">
+            <article class="grupo">
+                <label for="inputNumero">Número Tarjeta</label>
+                <input type="text" id="inputNumero" minlength="13" maxlength="19" autocomplete="off" required/>
+            </article>
+            <article class="grupo">
+                <label for="inputNombre">Nombre</label>
+                <input type="text" id="inputNombre" autocomplete="off"/>
+            </article>
+            <article class="flexbox">
+                <article class="grupo expira">
+                    <label for="selectMonth">Expiración</label>
+                    <article class="flexbox">
+                        <article class="grupo-select">
+                            <select name="month" id="selectMonth">
+                                <!-- <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option> -->
+                                <option disabled selected>Mes</option>
+                            </select>
+                        </article>
+                        <article class="grupo-select">
+                            <select name="year" id="selectYear">
+                                <option disabled selected>Año</option>
+                            </select>
+                        </article>
+                    </article>
+                </article>
+                <article class="grupo ccv">
+                    <label for="inputCCV">CCV</label>
+                    <input type="text" id="inputCCV" maxlength="3" autocomplete="off"/>
+                </article>
+            </article>
+            <h4>PEN 18.00/mes</h4>
+            <button type="button" class="btn-enviar" id="btnValidar">Iniciar suscripción</button>
+        </form>
+    </main>
+    <footer></footer>
+    <script src="../JS/tarjeta.js"></script>
+    <script src="../JS/index.js" type="module"></script>
+</body>
+</html>

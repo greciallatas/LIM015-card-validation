@@ -1,0 +1,78 @@
+/*               Formulario tarjeta               */
+form{ /* Form reemplaza a la class formulario-tarjeta */
+    background: white;
+    width: 100%;
+    max-width: 700px;
+    padding: 150px 30px 30px 30px;
+    border-radius: 10px;
+    position: relative;
+    top: -110px;
+    z-index: 1;
+}
+
+form label{
+    display: block;
+    color: grey;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+form input, form select, .btn-enviar{
+    border: 2px solid #E5E8E8;
+    font-size: 18px;
+    height: 50px;
+    width: 100%;
+    padding: 5px 12px;
+    transition: .3s ease all;
+    border-radius: 5px;
+}
+
+form input:hover,
+form select:hover{
+    border: 2px solid #AEB6BF;
+}
+
+form input{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+form .flexbox{
+    display: flex;
+    justify-content: space-between;
+}
+
+form .expira{
+    width: 100%;
+}
+
+form .ccv{
+    min-width: 100px;
+}
+
+form .grupo-select{
+    width: 100%;
+    margin-right: 15px;
+    position: relative;
+}
+
+form .btn-enviar{
+    border: none;
+    padding: 10px;
+    font-size: 22px;
+    color: white;
+    background: #F0B27A;
+    box-shadow: 2px 2px 10px 0 rgba(0,185,212,0,4);
+    cursor: pointer;
+}
+
+form .btn-enviar:hover{
+    background: #EB984E;
+}
+
+/* Quitar el scroll de un input type='text' */
+/* form .grupo input[type=number]::-webkit-inner-spin-button,
+form .grupo input[type=number]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+} */
