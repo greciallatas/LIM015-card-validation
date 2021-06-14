@@ -1,14 +1,14 @@
-// importamos el objeto `validator`, que contiene las funciones `isValid` y `maskify`
-import validator from '../src/validator';
+// importamos el objeto `validator`, que contiene las funciones `isvalid` y `maskify`
+import validator from '../src/JS/validator';
 
 describe('validator', () => {
   it('debería ser un objeto', () => {
     expect(typeof validator).toBe('object');
   });
 
-  describe('validator.isValid', () => {
+  describe('validator.isvalid', () => {
     it('debería ser una función', () => {
-      expect(typeof validator.isValid).toBe('function');
+      expect(typeof validator.isvalid).toBe('function');
     });
 
     it.skip('debería retornar true para "4083952015263"', () => {
