@@ -6,7 +6,6 @@ botonValidar.addEventListener('click', () => {
     console.log('Me diste click: ' + cardNumber);
 
     let resultValidator = validator.isvalid(cardNumber.replace(/\s/g, ''));
-
     console.log(resultValidator);
 
     resultValidator === true?alert('Tarjeta valida'):alert('Tarjeta invalida');
@@ -16,6 +15,9 @@ botonValidar.addEventListener('click', () => {
     // }else{
     //     alert('Tarjeta invalida')
     // }
+
+    let maskNumber = validator.maskify(cardNumber.replace(/\s/g, ''));
+    console.log(maskNumber);
 
 });
 

@@ -50,6 +50,22 @@ const validator = {
     }
 
     //console.log(parNumber);
+  },
+
+  maskify: (cardNumber) => {
+
+    let mask = "";
+
+    for (let i = 0; i < cardNumber.length; i++) {
+
+      if (i <= cardNumber.length -5) {
+        mask += "#";
+      }else{
+        mask += cardNumber[i];
+      }
+    }
+    //console.log(mask);
+    return mask;
   }
 };
 
