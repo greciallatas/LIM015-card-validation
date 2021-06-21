@@ -12,7 +12,6 @@
 
 Este proyecto es una aplicación web donde se encuentran cientos de libros de distintos géneros, como comedia, ciencia-ficción, drama, terror, suspenso, amor, entre otros. Para acceder a esta plataforma es necesario cancelar una suscripción de S/18.00 mensual con tarjeta de crédito o débito.
 
-***
 ## 2. Investigación UX
 
 Este proyecto se realizó para usuarios que sean amantes de la lectura, que quieran salir de su zona de confort y hagan explotar su imaginación.
@@ -23,30 +22,29 @@ Si bien es cierto, existen diferentes plataformas donde se puede comprar un libr
 
 Imagen del primer prototipo:
 
-![Interfaz de Inicio](/Images/boceto1.jpeg)
+![Interfaz de Inicio](./Images/boceto1.png)
 
-![Interfaz de Suscripcion](/Images/boceto2.jpeg)
+![Interfaz de Suscripcion](./Images/boceto2.jpeg)
 
-![Interfaz de Tarjeta](/Images/boceto3.jpeg)
+![Interfaz de Tarjeta](./Images/boceto3.jpeg)
 
 Para iniciar con este proyecto empecé haciendo mis bocetos en lápiz y papel, para plasmar el tema que quiero abarcar, en este caso fue una bookstore online, una vez terminado, busqué sobre los colores que tendrá mi aplicación web, ya que es parte fundamental de mi proyecto, por ello estuve investigando sobre la psicología del color, para saber el significado de los colores y cual tengo aplicar dependiendo al tipo de usuario al que quiero llegar y lo que quiero trasmitir.
 
-![Psicologia del color](/Images/psicologia-color.jpg)
+![Psicologia del color](./Images/psicologia-color.jpg)
 
 Elegí el color naranja, porque demuestra juventud, diversión y vida, ya que es al tipo de usuario que estoy orientando mi aplicación web.
 
 
 Imagen del prototipo final:
 
-![Prototipo final - Inicio](/Images/prototipo-f1.png)
+![Prototipo final - Inicio](./Images/prototipo-f1.png)
 
-![Prototipo final - Suscripcion](/Images/prototipo-f2.png)
+![Prototipo final - Suscripcion](./Images/prototipo-f2.png)
 
-![Prototipo final - Tarjeta](/Images/prototipo-f3.JPG)
+![Prototipo final - Tarjeta](./Images/prototipo-f3.JPG)
 
-![Prototipo final - Tarjeta Reverso](/Images/prototipo-f4.png)
+![Prototipo final - Tarjeta Reverso](./Images/prototipo-f4.png)
 
-***
 ## 3. Plan de acción
 
 ### HTML y CSS
@@ -74,8 +72,8 @@ Imagen del prototipo final:
 
 * [ ] Testeo unitario.
 
-![Test](/Images/test1.JPG)
-![Test](/Images/test2.JPG)
+![Test](./Images/test1.JPG)
+![Test](./Images/test2.JPG)
 
 ### Estructura del código y guía de estilo
 
