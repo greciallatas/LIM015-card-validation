@@ -2,10 +2,10 @@ const validator = {
   isvalid: (cardNumber) => {
     
     let card = cardNumber; // Obtenemos el número de la tarjeta
-    console.log(card);
+    //console.log(card);
 
     let stringCardNumber = card.split(""); // Obtnemos el número en una cadena y en reversa
-    console.log(stringCardNumber);
+    //console.log(stringCardNumber);
 
     // let reverseCardNumber = stringCardNumber.reverse(); // Obtenemos el número en reversa
     // console.log(reverseCardNumber);
@@ -41,7 +41,7 @@ const validator = {
       sumNumber += parseInt(finalNumber[index], 10);
     }
 
-    console.log(sumNumber);
+    //console.log(sumNumber);
 
     if (sumNumber % 10 === 0) {
       return true;

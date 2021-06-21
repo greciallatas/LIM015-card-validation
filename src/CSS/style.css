@@ -21,7 +21,7 @@ main{
 
 section{ /* Form reemplaza a la class formulario-tarjeta */
     width: 50%;
-    max-width: 700px;
+    max-width: 100%;
     padding: 150px 30px 30px 30px;
     border-radius: 10px;
     position: relative;
@@ -29,9 +29,11 @@ section{ /* Form reemplaza a la class formulario-tarjeta */
 }
 
 img{
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 25px;
     width: 100%;
     height: 100%;
-    max-width: 300px;
 }
 
 section .btn-suscribirse{
