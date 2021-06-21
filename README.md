@@ -22,7 +22,7 @@ Si bien es cierto, existen diferentes plataformas donde se puede comprar un libr
 
 Imagen del primer prototipo:
 
-![Interfaz de Inicio](../Images/boceto1.jpeg)
+[![Interfaz de Inicio](./Images/boceto1.jpeg)]
 
 ![Interfaz de Suscripcion](./Images/boceto2.jpeg)
 
