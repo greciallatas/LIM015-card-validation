@@ -4,7 +4,7 @@
 
 * [1. Resumen del proyecto](#1-Resumen-del-proyecto)
 * [2. Investigación UX](#2-Investigación-UX)
-* [3. Plan de acción](#4-Plan-de-acción)
+* [3. Plan de acción](#3-Plan-de-acción)
 
 ***
 
@@ -22,7 +22,7 @@ Si bien es cierto, existen diferentes plataformas donde se puede comprar un libr
 
 Imagen del primer prototipo:
 
-![Interfaz de Inicio](./Images/boceto1.png)
+![Interfaz de Inicio](../Images/boceto1.jpeg)
 
 ![Interfaz de Suscripcion](./Images/boceto2.jpeg)
 
