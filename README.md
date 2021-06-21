@@ -24,28 +24,28 @@ Si bien es cierto, existen diferentes plataformas donde se puede comprar un libr
 
 Imagen del primer prototipo:
 
-![Interfaz de Inicio](././Images/boceto1.jpeg)
+![Interfaz de Inicio](./src/Images/boceto1.jpeg)
 
-![Interfaz de Suscripcion](./Images/boceto2.jpeg)
+![Interfaz de Suscripcion](./src/Images/boceto2.jpeg)
 
-![Interfaz de Tarjeta](./Images/boceto3.jpeg)
+![Interfaz de Tarjeta](./src/Images/boceto3.jpeg)
 
 Para iniciar con este proyecto empecé haciendo mis bocetos en lápiz y papel, para plasmar el tema que quiero abarcar, en este caso fue una bookstore online, una vez terminado, busqué sobre los colores que tendrá mi aplicación web, ya que es parte fundamental de mi proyecto, por ello estuve investigando sobre la psicología del color, para saber el significado de los colores y cual tengo aplicar dependiendo al tipo de usuario al que quiero llegar y lo que quiero trasmitir.
 
-![Psicologia del color](./Images/psicologia-color.jpg)
+![Psicologia del color](./src/Images/psicologia-color.jpg)
 
 Elegí el color naranja, porque demuestra juventud, diversión y vida, ya que es al tipo de usuario que estoy orientando mi aplicación web.
 
 
 Imagen del prototipo final:
 
-![Prototipo final - Inicio](./Images/prototipo-f1.png)
+![Prototipo final - Inicio](./src/Images/prototipo-f1.png)
 
-![Prototipo final - Suscripcion](./Images/prototipo-f2.png)
+![Prototipo final - Suscripcion](./src/Images/prototipo-f2.png)
 
-![Prototipo final - Tarjeta](./Images/prototipo-f3.JPG)
+![Prototipo final - Tarjeta](./src/Images/prototipo-f3.JPG)
 
-![Prototipo final - Tarjeta Reverso](./Images/prototipo-f4.png)
+![Prototipo final - Tarjeta Reverso](./src/Images/prototipo-f4.png)
 
 ## 3. Plan de acción
 
@@ -74,8 +74,8 @@ Imagen del prototipo final:
 
 * [ ] Testeo unitario.
 
-![Test](./Images/test1.JPG)
-![Test](./Images/test2.JPG)
+![Test](./src/Images/test1.JPG)
+![Test](./src/Images/test2.JPG)
 
 ### Estructura del código y guía de estilo
 
