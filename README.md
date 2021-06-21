@@ -45,7 +45,7 @@ Imagen del prototipo final:
 
 ![Prototipo final - Tarjeta](./src/Images/prototipo-f3.JPG)
 
-![Prototipo final - Tarjeta Reverso](./src/Images/prototipo-f4.png)
+![Prototipo final - Tarjeta Reverso](./src/Images/prototipo-f4.JPG)
 
 ## 3. Plan de acción
 
