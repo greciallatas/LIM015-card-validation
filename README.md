@@ -1,6 +1,6 @@
 # PROYECTO: WATTPAD
 
-![Wattpad](./Images/wattpad.png)
+![Wattpad](./src/Images/wattpad.png)
 
 ## Índice
 
