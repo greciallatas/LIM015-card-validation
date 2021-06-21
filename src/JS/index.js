@@ -17,7 +17,7 @@ botonValidar.addEventListener('click', () => {
     let maskNumber = validator.maskify(cardNumber.replace(/\s/g, ''));
     //console.log(maskNumber);
 
-    resultValidator === true?alert('Tarjeta valida ' + maskNumber):alert('Tarjeta invalida');
+    resultValidator === true?alert(maskNumber + ' \n  \n ' + '✔️ Tarjeta válida'):alert(maskNumber + ' \n \n ' + '❌ Tarjeta inválida');
 
 });
 

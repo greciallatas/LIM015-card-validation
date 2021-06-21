@@ -13,7 +13,7 @@ body{
 }
 
 main{
-    width: 90%;
+    width: 70%;
     max-width: 1000px;
     padding: 40px 20px;
     margin: auto;
@@ -24,7 +24,7 @@ main{
 
 /*  Estilos Generales de las tarjetas(delante y trasera) */
 section{ /* seccion reemplaza a la class tarjeta */
-    width: 100%;
+    width: 60%;
     max-width: 550px;
     position: relative; /* La tarjeta tenga un efecto 3D */
     color: white;
